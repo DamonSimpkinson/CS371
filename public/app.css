@@ -1,0 +1,32 @@
+#logo {
+  padding-top: 10px;
+}
+
+#title {
+  font-size: 4.0em;
+}
+
+.errorMsg {
+    color: red;
+}
+
+.jumbotron {
+    align: center;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+
+h1 {
+    align: center;
+}
+
+li, ul {
+    font-size: 1.1em;
+    padding-left: 0;
+}
+
+p {
+  font-size: 1.2em;
+}
