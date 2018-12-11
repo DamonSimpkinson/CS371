@@ -14,8 +14,18 @@
     align: center;
 }
 
+.btn-xlg {
+  padding: 15px 25px;
+  font-size: 22px;
+  line-height: normal;
+    -webkit-border-radius: 8px;
+       -moz-border-radius: 8px;
+            border-radius: 8px;
+}
+
 body {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(245, 245, 245);
+  font-family: "Times New Roman", Times, serif;
 }
 
 h1 {

@@ -1,7 +1,9 @@
 // hides all areas below the navigation header
 function hide(){
   $("#announcements").hide();
-  $("#classInfo").hide();
+  $("#scheduleInfo").hide();
+  $("#benefitsInfo").hide();
+  $("#curriculumInfo").hide();
   $("#whiteBelt").hide();
   $("#yellowBelt").hide();
   $("#orangeBelt").hide();
@@ -31,54 +33,73 @@ $(document).ready(function () {
     $("#announcements").show();
   })
 
-  $("#classes").click(function() {
+  $("#schedule").click(function() {
     hide();
-    $("#classInfo").show();
+    $("#scheduleInfo").show();
+  })
+
+  $("#benefits").click(function() {
+    hide();
+    $("#benefitsInfo").show();
+  })
+
+  $("#curriculum").click(function() {
+    hide();
+    $("#curriculumInfo").show();
   })
 
   $("#white").click(function() {
     hide();
     $("#whiteBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#yellow").click(function() {
     hide();
     $("#yellowBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#orange").click(function() {
     hide();
     $("#orangeBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#green").click(function() {
     hide();
     $("#greenBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#blue").click(function() {
     hide();
     $("#blueBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#purple").click(function() {
     hide();
     $("#purpleBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#red").click(function() {
     hide();
     $("#redBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#blackTip").click(function() {
     hide();
     $("#blackTipBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#doubleBlackTip").click(function() {
     hide();
     $("#doubleBlackTipBelt").show();
+    $("#curriculumInfo").show();
   })
 
   $("#contact").click(function() {
